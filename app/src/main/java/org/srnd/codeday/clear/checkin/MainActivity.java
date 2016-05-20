@@ -1,8 +1,12 @@
 package org.srnd.codeday.clear.checkin;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.os.StrictMode;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import com.google.zxing.Result;
@@ -32,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
     private String token;
     private boolean allowMissing;
     private SharedPreferences preferences;
+    private int PERMISSION_REQUEST_CAMERA = 10; // 10 seems like a cool number
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +56,20 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
 
         // Start the app
         setContentView(R.layout.activity_main);
+
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.CAMERA)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.CAMERA)) {
+                toast("The camera permission is needed to scan barcodes.");
+            } else {
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.CAMERA},
+                        PERMISSION_REQUEST_CAMERA);
+            }
+        }
 
         // Find the scanner view
         scanner = (ZXingScannerView) findViewById(R.id.scanner);
@@ -194,6 +213,5 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
 
         scanner.resumeCameraPreview(this);
     }
-
 
 }
