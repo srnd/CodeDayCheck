@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tylermenezes/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/core-3.2.1_3cd51275662fe7164d516712d1fd2adeb2d7f0a6.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_25657f3b5c11dd2cc6fdb2b397d03bdb47e2c7d5.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_320c8b5ed52e16bfdad1a109fadd4badbae646a6.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8af94969b64b3dc3cd40838cb84dfd5fb3804e91.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_1d94e635e281f040ed48e3252fa905a067dd2f43.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/okio-1.6.0_283e93dc132a6f8d1d71a4f1b9a6578984dffb3a.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.4_f7b93a5e6494cee094183a59606351da8a3e4e77.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_96c065b5b73469af3a6cf8feb2f5cb8b57840756.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_b0c53cc2203a253743dca69510184b0a051aa67e.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_6594b81f21a0890395080200e8259c16e3cfa002.jar" />
+    </item>
+    <item
+        jar="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="/home/tylermenezes/AndroidStudioProjects/CodeDayCheckin/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zxing-1.8.4_305dcdadaf92ed8728051f3eb55cc69bce0dd29f.jar" />
+    </item>
+
+</items>
